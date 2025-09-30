@@ -184,3 +184,14 @@ a, button, .card, input, textarea {
 a:hover, button:hover {
     transform: translateY(-2px);
 }
+
+.blog-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.blog-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+}
